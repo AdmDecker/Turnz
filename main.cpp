@@ -1,9 +1,9 @@
 #include "Headers/Global.h"
 #include "Headers/GameSettings.h"
 #include "Headers/States.h"
-#include "SDL.h"
-#include "SDL_ttf.h"
-#include "SDL_image.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_ttf.h"
+#include "SDL2/SDL_image.h"
 #include <iostream>
 
 
