@@ -1103,22 +1103,22 @@ void Winner()
     GP_Unload();
 }
 
-int index;
+int indx;
 void Swaglet();
 
 void Add_HighScore()
 {
-    index = 11;
+    indx = 11;
     bool flag = false;
     for(int x = 9; x >= 0; x--)
     {
         if(HighScores[x] > Score)
         {
-            index = x;
+            indx = x;
         }
     }
 
-    if(index < 10)
+    if(indx < 10)
     {
         TextInput(Input_Check);
     }
@@ -1136,9 +1136,9 @@ void Add_HighScore()
 
 void Input_Check(std::string Scorer)
 {
-    HighScorers.insert(HighScorers.begin() + index, Scorer);
+    HighScorers.insert(HighScorers.begin() + indx, Scorer);
     HighScorers.pop_back();
-    HighScores.insert(HighScores.begin() + index, Score);
+    HighScores.insert(HighScores.begin() + indx, Score);
     HighScores.pop_back();
 
     GP_SaveLevel();
