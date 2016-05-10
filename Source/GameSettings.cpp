@@ -2,7 +2,7 @@
 #include <string.h>
 #include <iostream>
 #include "../Headers/Global.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
 #include "../Headers/States.h"
 #include <vector>
 #include <sstream>

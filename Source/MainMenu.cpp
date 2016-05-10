@@ -1,4 +1,4 @@
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "../Headers/Global.h"
 #include <iostream>
 #include "../Headers/States.h"
