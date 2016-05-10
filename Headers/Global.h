@@ -9,7 +9,7 @@
 #ifndef TEst2_Global_h
 #define TEst2_Global_h
 #include <string>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <vector>
 
 #define BASIC 0
